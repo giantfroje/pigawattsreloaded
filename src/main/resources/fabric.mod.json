@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "pigawattsreloaded",
+  "version": "1.0.0",
+  "name": "Pigawatts Reloaded",
+  "description": "Adds treadmills for pigs that generate Pigawatts™ (relabeled TR). Based off of the treadmills from Sync, by iChun (https://ichun.me/mods/sync)",
+  "authors": ["giantfroje"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pigawattsreloaded/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.giantfroje.pigawattsreloaded.client.PigawattsReloadedClient"
+    ],
+    "main": [
+      "dev.giantfroje.pigawattsreloaded.PigawattsReloaded"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5",
+    "geckolib3": ">=3.0.36"
+  }
+}

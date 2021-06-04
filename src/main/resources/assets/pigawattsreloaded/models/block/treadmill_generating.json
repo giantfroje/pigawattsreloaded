@@ -1,0 +1,7 @@
+{
+  "parent": "pigawattsreloaded:block/treadmill",
+  "textures": {
+    "track": "pigawattsreloaded:block/treadmill_track_generating",
+    "control_panel": "pigawattsreloaded:block/control_panel_generating"
+  }
+}

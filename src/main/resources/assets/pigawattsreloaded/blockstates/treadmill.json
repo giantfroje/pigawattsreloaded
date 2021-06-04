@@ -1,0 +1,67 @@
+{
+  "variants": {
+    "facing=north,on=false,generating=false": {
+      "model": "pigawattsreloaded:block/treadmill"
+    },
+    "facing=south,on=false,generating=false": {
+      "model": "pigawattsreloaded:block/treadmill",
+      "y": 180
+    },
+    "facing=east,on=false,generating=false": {
+      "model": "pigawattsreloaded:block/treadmill",
+      "y": 90
+    },
+    "facing=west,on=false,generating=false": {
+      "model": "pigawattsreloaded:block/treadmill",
+      "y": 270
+    },
+
+    "facing=north,on=true,generating=false": {
+      "model": "pigawattsreloaded:block/treadmill_on"
+    },
+    "facing=south,on=true,generating=false": {
+      "model": "pigawattsreloaded:block/treadmill_on",
+      "y": 180
+    },
+    "facing=east,on=true,generating=false": {
+      "model": "pigawattsreloaded:block/treadmill_on",
+      "y": 90
+    },
+    "facing=west,on=true,generating=false": {
+      "model": "pigawattsreloaded:block/treadmill_on",
+      "y": 270
+    },
+
+    "facing=north,on=true,generating=true": {
+      "model": "pigawattsreloaded:block/treadmill_generating"
+    },
+    "facing=south,on=true,generating=true": {
+      "model": "pigawattsreloaded:block/treadmill_generating",
+      "y": 180
+    },
+    "facing=east,on=true,generating=true": {
+      "model": "pigawattsreloaded:block/treadmill_generating",
+      "y": 90
+    },
+    "facing=west,on=true,generating=true": {
+      "model": "pigawattsreloaded:block/treadmill_generating",
+      "y": 270
+    }
+  },
+
+  "facing=north,on=false,generating=true": {
+    "model": "pigawattsreloaded:block/treadmill"
+  },
+  "facing=south,on=false,generating=true": {
+    "model": "pigawattsreloaded:block/treadmill",
+    "y": 180
+  },
+  "facing=east,on=false,generating=true": {
+    "model": "pigawattsreloaded:block/treadmill",
+    "y": 90
+  },
+  "facing=west,on=false,generating=true": {
+    "model": "pigawattsreloaded:block/treadmill",
+    "y": 270
+  }
+}
